@@ -9,6 +9,7 @@ import chart45 from "../images/45.svg";
 import chart12 from "../images/12.svg";
 import chart1 from "../images/12chart.svg";
 import line_chart from "../images/line_chart.svg";
+// import FirstChart from "../charts/FirstChart";
 
 const Dashboard = () => {
   return (
@@ -47,6 +48,7 @@ const Dashboard = () => {
           </div>
           <div className="mt-44 -ml-[85.4%] ">
             <div className="flex">
+      {/* <FirstChart/> */}
               <img src={chart} />
               <img className="ml-[25px]" src={chart70} />
               <img className="ml-[45px]" src={chart45} />

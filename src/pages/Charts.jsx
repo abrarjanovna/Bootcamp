@@ -1,11 +1,12 @@
-import Sidebar from "../components/Sidebar"
+import Sidebar from "../components/Sidebar";
 
 const Charts = () => {
   return (
     <div className="flex">
-      <Sidebar/>
-      Charts</div>
-  )
-}
+      <Sidebar />
+      Charts
+    </div>
+  );
+};
 
-export default Charts
+export default Charts;
