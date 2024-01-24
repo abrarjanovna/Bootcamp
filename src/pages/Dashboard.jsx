@@ -15,40 +15,40 @@ const Dashboard = () => {
   return (
     <div className="flex">
       <Sidebar />
-     <div className="w-[1376px] bg-white h-[55px]">
-        <p className="font-bold m-3 text-2xl">Dashboard</p>
-        <div className="bg-[#4094F726] h-[965px] flex">
+      <div className="h-[55px] w-[1376px] bg-white">
+        <p className="m-3 text-2xl font-bold">Dashboard</p>
+        <div className="flex h-[965px] bg-[#4094F726]">
           <div className="box flex">
-            <span className="font-semibold text-2xl ml-5 mt-8 text-[#4094F7]">
+            <span className="ml-5 mt-8 text-2xl font-semibold text-[#4094F7]">
               24
             </span>
-            <span className="mt-[70px] -ml-7 text-gray-500">Филиалы</span>
-            <img className="w-[72px] ml-[90px]" src={frame} />
+            <span className="-ml-7 mt-[70px] text-gray-500">Филиалы</span>
+            <img className="ml-[90px] w-[72px]" src={frame} />
           </div>
           <div className="box flex">
-            <span className="font-semibold text-2xl ml-5 mt-8 text-[#4094F7]">
+            <span className="ml-5 mt-8 text-2xl font-semibold text-[#4094F7]">
               110,823
             </span>
-            <span className="mt-[70px] -ml-20 text-gray-500">Клиенты</span>
-            <img className="w-[72px] ml-24" src={frame1} />
+            <span className="-ml-20 mt-[70px] text-gray-500">Клиенты</span>
+            <img className="ml-24 w-[72px]" src={frame1} />
           </div>
           <div className="box flex">
-            <span className="font-semibold text-2xl ml-5 mt-8 text-[#4094F7]">
+            <span className="ml-5 mt-8 text-2xl font-semibold text-[#4094F7]">
               110,823
             </span>
-            <span className="mt-[70px] -ml-20 text-gray-500">Подписчики</span>
-            <img className="w-[72px] ml-16" src={frame2} />
+            <span className="-ml-20 mt-[70px] text-gray-500">Подписчики</span>
+            <img className="ml-16 w-[72px]" src={frame2} />
           </div>
           <div className="box flex">
-            <span className="font-semibold text-2xl ml-5 mt-8 text-[#4094F7]">
+            <span className="ml-5 mt-8 text-2xl font-semibold text-[#4094F7]">
               75
             </span>
-            <span className="mt-[70px] -ml-7 text-gray-500">Курьеры</span>
-            <img className="w-[72px] ml-[90px]" src={frame3} />
+            <span className="-ml-7 mt-[70px] text-gray-500">Курьеры</span>
+            <img className="ml-[90px] w-[72px]" src={frame3} />
           </div>
-          <div className="mt-44 -ml-[85.4%] ">
+          <div className="-ml-[85.4%] mt-44 ">
             <div className="flex">
-      {/* <FirstChart/> */}
+              {/* <FirstChart/> */}
               <img src={chart} />
               <img className="ml-[25px]" src={chart70} />
               <img className="ml-[45px]" src={chart45} />
@@ -58,7 +58,7 @@ const Dashboard = () => {
             <img src={chart1} className="mt-8" />
           </div>
         </div>
-      </div> 
+      </div>
     </div>
   );
 };

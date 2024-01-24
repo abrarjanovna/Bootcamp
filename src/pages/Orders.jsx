@@ -987,19 +987,19 @@ const rows = [
   },
 ];
 
-export default function DataTable() {
+export default function Table() {
   return (
     <div className="flex">
       <Sidebar />
       <div>
-        <p className="font-bold m-3 text-2xl">Заказы</p>
-        <div className="text-gray-500 border w-[400px] h-[32px] ml-4 mb-4">
+        <p className="m-3 text-2xl font-bold">Заказы</p>
+        <div className="mb-4 ml-4 h-[32px] w-[400px] border text-gray-500">
           <div className="flex p-2">
             <CgSearch />
             <input
               type="text"
               placeholder="Поиск"
-              className="p-2 h-1 focus:outline-none"
+              className="h-1 p-2 focus:outline-none"
             />
           </div>
         </div>

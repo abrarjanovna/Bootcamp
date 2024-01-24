@@ -1,6 +1,14 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Other from "./components/Other";
-import { Charts, Clients, Dashboard, Error, Location, Orders } from "./pages";
+import {
+  About,
+  Charts,
+  Clients,
+  Dashboard,
+  Error,
+  Location,
+  Orders,
+} from "./pages";
 
 const App = () => {
   return (
@@ -12,6 +20,7 @@ const App = () => {
         <Route path="/clients" element={<Clients />} />
         <Route path="/location" element={<Location />} />
         <Route path="/charts" element={<Charts />} />
+        <Route path="/about-clients" element={<About />} />
         <Route path="/*" element={<Error />} />
       </Routes>
     </BrowserRouter>

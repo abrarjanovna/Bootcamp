@@ -20,7 +20,7 @@ const Login = () => {
           handleSubmit(e);
         }}
       >
-        <h1 className="text-[#001A49] font-bold">Вход в платформу</h1>
+        <h1 className="font-bold text-[#001A49]">Вход в платформу</h1>
         <p className="font-semibold">
           Имя пользователья <span className="text-[#F76659]">*</span>
         </p>
@@ -46,11 +46,11 @@ const Login = () => {
         <div className="-mt-[42px] ml-3 text-gray-400">
           <IoMdLock />
         </div>
-        <div className="flex mt-8">
+        <div className="mt-8 flex">
           <input type="checkbox" />
           <p className="ml-2 text-gray-400">Запомнить меня</p>
         </div>
-        <button className="w-[592px] h-[56px] rounded-lg bg-[#0067F4] text-white mt-8">
+        <button className="mt-8 h-[56px] w-[592px] rounded-lg bg-[#0067F4] text-white">
           <Link to="/dashboard">Войти</Link>
         </button>
       </form>

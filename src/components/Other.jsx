@@ -8,7 +8,7 @@ const Other = () => {
 
   return (
     <div className="container">
-      <h1 className="p-5 text-2xl text-white">Bootcamp Delever</h1>
+      <h1 className=" p-5 text-2xl text-white">Bootcamp Delever</h1>
       {user ? <Logout /> : <Login />}
     </div>
   );
