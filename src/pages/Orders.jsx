@@ -1,6 +1,6 @@
 import { DataGrid } from "@mui/x-data-grid";
 import { CgSearch } from "react-icons/cg";
-import Sidebar from "../components/Sidebar";
+import { Sidebar } from "../components";
 
 const columns = [
   { field: "id", headerName: "№", width: 10 },
@@ -998,7 +998,7 @@ export default function Table() {
             <CgSearch />
             <input
               type="text"
-              placeholder="Поиск"
+              placeholder="Поиск..."
               className="h-1 p-2 focus:outline-none"
             />
           </div>

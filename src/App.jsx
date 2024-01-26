@@ -1,14 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Other from "./components/Other";
-import {
-  About,
-  Charts,
-  Clients,
-  Dashboard,
-  Error,
-  Location,
-  Orders,
-} from "./pages";
+import { Charts, Clients, Dashboard, Error, Location, Orders } from "./pages";
+import { Promotion, StockList, About } from "./some";
+import { Other } from "./components";
 
 const App = () => {
   return (
@@ -18,6 +11,8 @@ const App = () => {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/orders" element={<Orders />} />
         <Route path="/clients" element={<Clients />} />
+        <Route path="/stockList" element={<StockList />} />
+        <Route path="/promotion" element={<Promotion />} />
         <Route path="/location" element={<Location />} />
         <Route path="/charts" element={<Charts />} />
         <Route path="/about-clients" element={<About />} />

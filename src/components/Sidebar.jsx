@@ -1,10 +1,10 @@
-import img from "../images/d.svg";
-import main from "../images/main.svg";
 import { SlBasket } from "react-icons/sl";
 import { PiUsers } from "react-icons/pi";
 import { MdMyLocation } from "react-icons/md";
 import { BiSolidBarChartSquare } from "react-icons/bi";
 import { Link } from "react-router-dom";
+import main from "../images/main.svg";
+import img from "../images/d.svg";
 
 const Sidebar = () => {
   return (

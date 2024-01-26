@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { GrLinkPrevious } from "react-icons/gr";
 import { FaFolder } from "react-icons/fa";
 import { GrNext } from "react-icons/gr";
-import Sidebar from "../components/Sidebar";
+import { Sidebar } from "../components";
 import frame4 from "../images/frame4.svg";
 import frame5 from "../images/frame5.svg";
 import frame6 from "../images/frame6.svg";
@@ -80,7 +80,9 @@ const About = () => {
           <hr />
           <div className="p-4">
             <img src={avatar} />
-            <p className="m-1 cursor-pointer text-[#4094F7]">Изменить фото</p>
+            <p className="m-1 cursor-pointer font-semibold text-[#4094F7] ">
+              Изменить фото
+            </p>
             <div className="-mt-36 ml-36 font-semibold text-[#48535B]">
               Имя
               <p className="-mt-7 ml-28 h-[40px] w-[1048px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">

@@ -1,0 +1,20 @@
+#theme-switch-input2:checked + .ball2 {
+  background-color: #fff;
+  transform: translateX(-85%);
+}
+
+.ball2 {
+  margin-left: 28px;
+  width: 47%;
+  height: 85%;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.switch2 {
+  background-color: #4094f7;
+  border-radius: 18px;
+  width: 61px;
+  height: 31.5px;
+}

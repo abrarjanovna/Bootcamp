@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { HiUser } from "react-icons/hi";
 import { IoMdLock } from "react-icons/io";
-import "./Login.css";
 import { Link } from "react-router-dom";
+import "./Login.css";
 
 const Login = () => {
   const [name, setName] = useState("");

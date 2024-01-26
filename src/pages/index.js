@@ -1,4 +1,4 @@
-import About from "./About";
+import About from "../some/About";
 import Charts from "./Charts";
 import Clients from "./Clients";
 import Dashboard from "./Dashboard";

@@ -1,20 +1,19 @@
+import { CgSearch } from "react-icons/cg";
+import { DataGrid } from "@mui/x-data-grid";
+import { Link } from "react-router-dom";
+import { Sidebar } from "../components";
 import frame from "../images/frame.svg";
 import frame1 from "../images/frame1.svg";
 import frame2 from "../images/frame2.svg";
 import frame3 from "../images/frame3.svg";
-import { CgSearch } from "react-icons/cg";
-import { DataGrid } from "@mui/x-data-grid";
-import Sidebar from "../components/Sidebar";
-import { Link } from "react-router-dom";
 
 const columns = [
   { field: "firstName", headerName: "Название", width: 700 },
-  { field: "number", headerName: "Номер телефона", width: 150 },
+  { field: "number", headerName: "Номер телефона", width: 300 },
   {
     field: "status",
     headerName: "Статус",
-    type: "number",
-    width: 200,
+    width: 150,
   },
 ];
 
@@ -548,7 +547,7 @@ export default function Table() {
             <CgSearch />
             <input
               type="text"
-              placeholder="Поиск"
+              placeholder="Поиск..."
               className="h-1 p-2 focus:outline-none"
             />
           </div>
@@ -601,3 +600,5 @@ export default function Table() {
     </div>
   );
 }
+
+// spisok aktsiy shu page da bo'ladi!
