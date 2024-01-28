@@ -1,6 +1,7 @@
 import { DataGrid } from "@mui/x-data-grid";
 import { CgSearch } from "react-icons/cg";
 import { Sidebar } from "../components";
+import Calendar from "../calendar/Calendar";
 
 const columns = [
   { field: "id", headerName: "№", width: 10 },
@@ -14,27 +15,27 @@ const columns = [
   {
     field: "no",
     headerName: "Курьер",
-    width: 100,
+    width: 80,
   },
   {
     field: "name",
     headerName: "Филиал",
-    width: 100,
+    width: 90,
   },
   {
     field: "delivery",
     headerName: "Тип доставки",
-    width: 130,
+    width: 120,
   },
   {
     field: "price",
     headerName: "Цена заказа",
-    width: 110,
+    width: 120,
   },
   {
     field: "address",
     headerName: "Адресс клиента",
-    width: 300,
+    width: 330,
   },
 ];
 
@@ -992,8 +993,8 @@ export default function Table() {
     <div className="flex">
       <Sidebar />
       <div>
-        <p className="m-3 text-2xl font-bold">Заказы</p>
-        <div className="mb-4 ml-4 h-[32px] w-[400px] border text-gray-500">
+        <p className="m-3 ml-5 text-2xl font-bold">Заказы</p>
+        <div className="mb-4 ml-4 flex h-[32px] w-[400px] border text-gray-500">
           <div className="flex p-2">
             <CgSearch />
             <input
@@ -1003,18 +1004,23 @@ export default function Table() {
             />
           </div>
         </div>
-        <div className="mt-8">
-          <DataGrid
-            rows={rows}
-            columns={columns}
-            initialState={{
-              pagination: {
-                paginationModel: { page: 0, pageSize: 10 },
-              },
-            }}
-            pageSizeOptions={[10, 20]}
-            checkboxSelection
-          />
+        <div className="-mt-12 ml-[60%] w-[300px] pb-4">
+          <Calendar />
+        </div>
+        <div className="flex h-[965px] w-[1292px] bg-[#4094F726]">
+          <div className="m-8 cursor-pointer bg-white">
+            <DataGrid
+              rows={rows}
+              columns={columns}
+              initialState={{
+                pagination: {
+                  paginationModel: { page: 0, pageSize: 15 },
+                },
+              }}
+              pageSizeOptions={[10, 20]}
+              checkboxSelection
+            />
+          </div>
         </div>
       </div>
     </div>

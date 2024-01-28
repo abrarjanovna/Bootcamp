@@ -3,8 +3,8 @@ import { useDrawingArea } from "@mui/x-charts/hooks";
 import { styled } from "@mui/material/styles";
 
 const data = [
-  { value: 7, label: "A" },
-  { value: 20, label: "D" },
+  { value: 30, label: "Top Order" },
+  { value: 20, label: "40%" },
 ];
 
 const size = {
@@ -31,7 +31,7 @@ function PieCenterLabel({ children }) {
 export default function PieChartWithCenterLabel() {
   return (
     <PieChart series={[{ data, innerRadius: 70 }]} {...size}>
-      <PieCenterLabel>75%</PieCenterLabel>
+      <PieCenterLabel>40%</PieCenterLabel>
     </PieChart>
   );
 }

@@ -9,7 +9,7 @@ const Promotion = () => {
   return (
     <div className="flex">
       <Sidebar />
-      <div className="w-[1476px] pt-4">
+      <div className="w-[1292px] pt-4">
         <Link to="/stockList">
           <p className="m-4 flex text-[#B0BABF]">
             <GrLinkPrevious />
@@ -24,14 +24,16 @@ const Promotion = () => {
         </div>
         <div className="-mt-4 ml-52 flex text-[#4094F7]">
           <FaFolder />
-          <span className="-mt-1 ml-2 text-black">Vulputate velit lacus, enim viverra quis.</span>
+          <span className="-mt-1 ml-2 text-black">
+            Vulputate velit lacus, enim viverra quis.
+          </span>
         </div>
         <div className="pt-4">
           <hr />
         </div>
         <div className="flex h-[965px] bg-[#4094F726]"></div>
-        <div className="-mt-[64%] ml-8 h-[310px] w-[740px] rounded-md bg-white">
-          <p className="p-4 font-semibold">Клиент</p>
+        <div className="-mt-[72%] ml-8 h-[310px] w-[740px] rounded-md bg-white">
+          <p className="p-4 font-semibold">Общие сведения</p>
           <hr />
           <div className="p-4">
             <img src={photo} />
@@ -72,7 +74,9 @@ const Promotion = () => {
                       <div className="ball2"></div>
                     </label>
                   </button>
-                  <div className="-mt-8 ml-[185px] text-black font-normal">Активный</div>
+                  <div className="-mt-8 ml-[185px] font-normal text-black">
+                    Активный
+                  </div>
                 </div>
               </div>
             </div>

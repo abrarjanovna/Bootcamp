@@ -7,13 +7,13 @@ import frame4 from "../images/frame4.svg";
 import frame5 from "../images/frame5.svg";
 import frame6 from "../images/frame6.svg";
 import frame7 from "../images/frame7.svg";
-import avatar from "../images/avatar.svg";
+import avatar from "../images/girl.svg";
 
 const About = () => {
   return (
     <div className="flex">
       <Sidebar />
-      <div className="w-[1476px] pt-4">
+      <div className="w-[1292px] pt-4">
         <Link to="/clients">
           <p className="m-4 flex text-[#B0BABF]">
             <GrLinkPrevious />
@@ -28,17 +28,23 @@ const About = () => {
         </div>
         <div className="-mt-4 ml-44 flex text-[#4094F7]">
           <FaFolder />
-          <span className="-mt-1 ml-2 text-black">Ronald Richards</span>
+          <span className="-mt-1 ml-2 text-black">Eleanor Pena</span>
         </div>
         <div className="pt-4">
           <hr />
           <div className="h-[40px] bg-[#6E8BB70D] p-2 text-[#6E8BB7]">
-            <span className="ml-4 cursor-pointer hover:text-[#4094f7]">
+            <Link
+              to="/clients/about-clients"
+              className="ml-4 cursor-pointer hover:text-[#4094f7]"
+            >
               О клиенте
-            </span>
-            <span className="ml-4 cursor-pointer hover:text-[#4094f7]">
+            </Link>
+            <Link
+              to="/clients/about-clients/orders"
+              className="ml-4 cursor-pointer hover:text-[#4094f7]"
+            >
               Заказы
-            </span>
+            </Link>
           </div>
         </div>
         <div className="flex h-[965px] bg-[#4094F726]">
@@ -75,7 +81,7 @@ const About = () => {
             <img className="ml-[180px] w-[72px]" src={frame7} />
           </div>
         </div>
-        <div className="-mt-[54%] ml-8 h-[310px] w-[1366px] rounded-md bg-white">
+        <div className="-mt-[60%] ml-3 h-[310px] w-[1266px] rounded-md bg-white">
           <p className="p-4 font-semibold">Клиент</p>
           <hr />
           <div className="p-4">
@@ -85,26 +91,28 @@ const About = () => {
             </p>
             <div className="-mt-36 ml-36 font-semibold text-[#48535B]">
               Имя
-              <p className="-mt-7 ml-28 h-[40px] w-[1048px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
-                Ronald
+              <p className="-mt-7 ml-28 h-[40px] w-[948px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                Eleanor
               </p>
               <div className="mt-4">
                 Фамилия
-                <p className="-mt-7 ml-28 h-[40px] w-[1048px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
-                  Richards
+                <p className="-mt-7 ml-28 h-[40px] w-[948px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                  Pena
                 </p>
               </div>
               <div className="mt-4">
                 Телефон
-                <p className="-mt-7 ml-28 h-[40px] w-[1048px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                <p className="-mt-7 ml-28 h-[40px] w-[948px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
                   (319) 555-0155
                 </p>
               </div>
               <div className="mt-4">
                 Тип клиента
                 <div className="-mt-4">
-                  <select className="-mt-7 ml-28 h-[40px] w-[1048px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
-                    <option value="Richards">VIP</option>
+                  <select className="-mt-7 ml-28 h-[40px] w-[948px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                    <option>VIP</option>
+                    <option>VIP</option>
+                    <option>VIP</option>
                   </select>
                 </div>
               </div>

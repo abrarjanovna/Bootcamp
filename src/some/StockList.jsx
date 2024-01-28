@@ -623,32 +623,52 @@ const StockList = () => {
   return (
     <div className="flex">
       <Sidebar />
-      <div className="h-[55px] w-[1376px] bg-white">
-        <p className="m-3 text-2xl font-bold">Список акций</p>
-        <div className="mb-4 ml-4 h-[32px] w-[400px] border text-gray-500">
-          <div className="flex p-2">
-            <CgSearch />
-            <input
-              type="text"
-              placeholder="Поиск..."
-              className="h-1 p-2 focus:outline-none"
-            />
+      <div className="w-[1292px] pt-4">
+        <div className="flex">
+          <p className="text-[#5B6871] ml-5 text-2xl font-bold">Список акций</p>
+          <div className="ml-[585px] mt-1  h-[32px] w-[400px] border text-gray-500">
+            <div className="flex p-2">
+              <CgSearch />
+              <input
+                type="text"
+                placeholder="Поиск..."
+                className="h-1 p-2 focus:outline-none"
+              />
+            </div>
           </div>
         </div>
-        <div className="flex h-[965px] w-[1455px] bg-[#4094F726]"></div>
-        <div className="-mt-[930px] ml-8 w-[1176px] bg-white">
-          <Link to="/promotion">
-            <DataGrid
-              rows={rows}
-              columns={columns}
-              initialState={{
-                pagination: {
-                  paginationModel: { page: 0, pageSize: 10 },
-                },
-              }}
-              pageSizeOptions={[10, 20]}
-            />
-          </Link>
+        <div className="pt-4">
+          <hr />
+          <div className="h-[40px] bg-[#6E8BB70D] p-2 text-[#6E8BB7]">
+            <Link
+              to="/stockList/banners"
+              className="ml-4 cursor-pointer hover:text-[#4094f7]"
+            >
+              Баннеры
+            </Link>
+            <Link
+              to="/stockList/reviews"
+              className="ml-4 cursor-pointer hover:text-[#4094f7]"
+            >
+              Отзывы
+            </Link>
+          </div>
+        </div>
+        <div className="flex h-[965px] bg-[#4094F726]">
+          <div className="m-4 h-[630px] cursor-pointer bg-white">
+            <Link to="/stockList/promotion">
+              <DataGrid
+                rows={rows}
+                columns={columns}
+                initialState={{
+                  pagination: {
+                    paginationModel: { page: 0, pageSize: 10 },
+                  },
+                }}
+                pageSizeOptions={[10, 20]}
+              />
+            </Link>
+          </div>
         </div>
       </div>
     </div>

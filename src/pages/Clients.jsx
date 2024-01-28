@@ -540,8 +540,8 @@ export default function Table() {
   return (
     <div className="flex">
       <Sidebar />
-      <div className="h-[55px] w-[1376px] bg-white">
-        <p className="m-3 text-2xl font-bold">Клиенты</p>
+      <div className="h-[55px] w-[1476px] bg-white">
+        <p className="m-3 text-2xl ml-5 font-bold">Клиенты</p>
         <div className="mb-4 ml-4 h-[32px] w-[400px] border text-gray-500">
           <div className="flex p-2">
             <CgSearch />
@@ -553,37 +553,37 @@ export default function Table() {
           </div>
         </div>
         <div className="flex h-[965px] bg-[#4094F726]">
-          <div className="box flex">
+          <div className="box2 flex w-[271px]">
             <span className="ml-5 mt-8 text-2xl font-semibold text-[#4094F7]">
               24
             </span>
             <span className="-ml-7 mt-[70px] text-gray-500">Филиалы</span>
-            <img className="ml-[90px] w-[72px]" src={frame} />
+            <img className="ml-[137px] w-[72px]" src={frame} />
           </div>
-          <div className="box flex">
+          <div className="box2 flex w-[271px]">
             <span className="ml-5 mt-8 text-2xl font-semibold text-[#4094F7]">
               110,823
             </span>
             <span className="-ml-20 mt-[70px] text-gray-500">Клиенты</span>
-            <img className="ml-24 w-[72px]" src={frame1} />
+            <img className="ml-36 w-[72px]" src={frame1} />
           </div>
-          <div className="box flex">
+          <div className="box2 flex w-[271px]">
             <span className="ml-5 mt-8 text-2xl font-semibold text-[#4094F7]">
               110,823
             </span>
             <span className="-ml-20 mt-[70px] text-gray-500">Подписчики</span>
-            <img className="ml-16 w-[72px]" src={frame2} />
+            <img className="ml-28 w-[72px]" src={frame2} />
           </div>
-          <div className="box flex">
+          <div className="box2 flex w-[271px]">
             <span className="ml-5 mt-8 text-2xl font-semibold text-[#4094F7]">
               75
             </span>
             <span className="-ml-7 mt-[70px] text-gray-500">Курьеры</span>
-            <img className="ml-[90px] w-[72px]" src={frame3} />
+            <img className="ml-[137px] w-[72px]" src={frame3} />
           </div>
         </div>
-        <div className="-mt-[790px] ml-8 w-[1176px] bg-white">
-          <Link to="/about-clients">
+        <div className="-mt-[790px] ml-3 w-[1266px] bg-white">
+          <Link to="/clients/about-clients">
             <DataGrid
               rows={rows}
               columns={columns}
@@ -600,5 +600,3 @@ export default function Table() {
     </div>
   );
 }
-
-// spisok aktsiy shu page da bo'ladi!
