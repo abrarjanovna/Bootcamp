@@ -483,7 +483,10 @@ const CompanyBranch = () => {
             >
               Филиалы компаний
             </Link>
-            <Link to="/settings/regions" className="ml-8 cursor-pointer hover:text-[#4094f7]">
+            <Link
+              to="/settings/regions"
+              className="ml-8 cursor-pointer hover:text-[#4094f7]"
+            >
               Регионы
             </Link>
           </div>

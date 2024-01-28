@@ -39,7 +39,10 @@ const AboutCompany = () => {
             >
               Филиалы компаний
             </Link>
-            <Link to="/settings/regions" className="ml-8 cursor-pointer hover:text-[#4094f7]">
+            <Link
+              to="/settings/regions"
+              className="ml-8 cursor-pointer hover:text-[#4094f7]"
+            >
               Регионы
             </Link>
           </div>
@@ -51,24 +54,24 @@ const AboutCompany = () => {
               <div className="p-4">
                 <div className="ml-2 mt-4 font-semibold text-[#48535B]">
                   Название компании
-                  <p className="-mt-7 ml-48 h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                  <p className="-mt-7 ml-48 h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black">
                     L'Oréal
                   </p>
                   <div className="mt-4">
                     Владелец
-                    <p className="-mt-7 ml-[193px] h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                    <p className="-mt-7 ml-[193px] h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black">
                       Андианова София
                     </p>
                   </div>
                   <div className="mt-4">
                     Год основания
-                    <p className="-mt-7 ml-[193px] h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                    <p className="-mt-7 ml-[193px] h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black">
                       2008
                     </p>
                   </div>
                   <p className="mt-4">Тип компании</p>
                   <div className="-mt-7">
-                    <select className="ml-[193px] h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                    <select className="ml-[193px] h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black">
                       <option value="proizvodstvo">Производство</option>
                       <option value="proizvodstvo">Производство</option>
                       <option value="proizvodstvo">Производство</option>
@@ -76,7 +79,7 @@ const AboutCompany = () => {
                   </div>
                   <p className="mt-4">Индустрия</p>
                   <div className="-mt-7">
-                    <select className="ml-[193px] h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                    <select className="ml-[193px] h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black">
                       <option value="proizvodstvo">Еда и напитки</option>
                       <option value="proizvodstvo">Еда и напитки</option>
                       <option value="proizvodstvo">Еда и напитки</option>
@@ -84,7 +87,7 @@ const AboutCompany = () => {
                   </div>
                   <div className="mt-4">
                     Bеб сайт организации
-                    <p className="-mt-7 ml-[193px] h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                    <p className="-mt-7 ml-[193px] h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black">
                       loreal.com
                     </p>
                   </div>
@@ -97,30 +100,30 @@ const AboutCompany = () => {
               <div className="p-4">
                 <div className="ml-2 mt-4 font-semibold text-[#48535B]">
                   Главный офис
-                  <p className="-mt-7 ml-48 h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                  <p className="-mt-7 ml-48 h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black">
                     Лондон
                   </p>
                   <div className="mt-4">
                     Кол-во сотрудников от
-                    <p className="-mt-7 ml-[193px] h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                    <p className="-mt-7 ml-[193px] h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black">
                       100
                     </p>
                   </div>
                   <div className="mt-4">
                     Кол-во сотрудников до
-                    <p className="-mt-7 ml-[193px] h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                    <p className="-mt-7 ml-[193px] h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black">
                       5 000
                     </p>
                   </div>
                   <div className="mt-4">
                     Доход от
-                    <p className="-mt-7 ml-[193px] h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                    <p className="-mt-7 ml-[193px] h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black">
                       5 000 000 сум
                     </p>
                   </div>
                   <div className="mt-4">
                     Доход до
-                    <p className="-mt-7 ml-[193px] h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                    <p className="-mt-7 ml-[193px] h-[40px] w-[360px] rounded-md border border-gray-300 p-2 font-normal text-black">
                       100 000 000 сум
                     </p>
                   </div>

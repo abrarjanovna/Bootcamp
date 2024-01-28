@@ -10,6 +10,12 @@ import StockList from "./StockList";
 import AboutCompany from "./AboutCompany";
 import CompanyBranch from "./CompanyBranch";
 import AboutBranch from "./AboutBranch";
+import Katalog from "./Katalog";
+import Product from "./Product";
+import Personal from "./Personal";
+import Kassir from "./Kassir";
+import KassirAbout from "./KassirAbout";
+import Kuryer from "./Kuryer";
 
 export {
   AboutClients,
@@ -24,4 +30,10 @@ export {
   Review,
   ReviewsAboutRu,
   ReviewsAbout,
+  Katalog,
+  Product,
+  Personal,
+  Kassir,
+  KassirAbout,
+  Kuryer,
 };

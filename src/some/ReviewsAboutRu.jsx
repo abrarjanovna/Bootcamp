@@ -48,7 +48,7 @@ const ReviewsAboutRu = () => {
           <div className="p-4">
             <div className="ml-2 mt-4 font-semibold text-[#48535B]">
               Описание
-              <p className="-mt-7 ml-48 h-[40px] w-[350px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+              <p className="-mt-7 ml-48 h-[40px] w-[350px] rounded-md border border-gray-300 p-2 font-normal text-black">
                 😉 Курьер молодец
               </p>
               <div className="mt-4">

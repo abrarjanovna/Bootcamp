@@ -42,13 +42,13 @@ const AboutBranch = () => {
               О филиале
             </Link>
             <Link
-              to="/settings/company-branch/about-branch/"
+              to="/settings/company-branch/catalog/category"
               className="ml-8 cursor-pointer hover:text-[#4094f7]"
             >
               Каталог
             </Link>
             <Link
-              to="/settings/company-branch/about-branch/"
+              to="/settings/company-branch/personal/kuryer"
               className="ml-8 cursor-pointer hover:text-[#4094f7]"
             >
               Персонал
@@ -66,18 +66,18 @@ const AboutBranch = () => {
             </p>
             <div className="-mt-36 ml-36 font-semibold text-[#48535B]">
               Hазвание
-              <p className="-mt-7 ml-28 h-[40px] w-[252px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
-                09:00 - 18:00
+              <p className="-mt-7 ml-28 h-[40px] w-[252px] rounded-md border border-gray-300 p-2 font-normal text-black">
+                София
               </p>
               <div className="mt-4">
                 Телефон
-                <p className="-mt-7 ml-28 h-[40px] w-[252px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                <p className="-mt-7 ml-28 h-[40px] w-[252px] rounded-md border border-gray-300 p-2 font-normal text-black">
                   +998 (90) 123-45-67
                 </p>
               </div>
               <div className="mt-4">
                 Адрес
-                <p className="-mt-7 ml-28 h-[40px] w-[252px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                <p className="-mt-7 ml-28 h-[40px] w-[252px] rounded-md border border-gray-300 p-2 font-normal text-black">
                   Алмазар т. Янги Алмазар 51
                 </p>
               </div>
@@ -90,43 +90,43 @@ const AboutBranch = () => {
               <div className="p-4">
                 <div className="ml-2 font-semibold text-[#48535B]">
                   <p>Понедельник</p>
-                  <p className="-mt-7 ml-32 h-[40px] w-[322px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                  <p className="-mt-7 ml-32 h-[40px] w-[322px] rounded-md border border-gray-300 p-2 font-normal text-black">
                     09:00 - 18:00
                   </p>
                 </div>
                 <div className="ml-2 font-semibold text-[#48535B]">
                   <p className="mt-4">Вторник</p>
-                  <p className="-mt-7 ml-32 h-[40px] w-[322px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                  <p className="-mt-7 ml-32 h-[40px] w-[322px] rounded-md border border-gray-300 p-2 font-normal text-black">
                     09:00 - 18:00
                   </p>
                 </div>
                 <div className="ml-2 font-semibold text-[#48535B]">
                   <p className="mt-4">Среда</p>
-                  <p className="-mt-7 ml-32 h-[40px] w-[322px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                  <p className="-mt-7 ml-32 h-[40px] w-[322px] rounded-md border border-gray-300 p-2 font-normal text-black">
                     09:00 - 18:00
                   </p>
                 </div>
                 <div className="ml-2 font-semibold text-[#48535B]">
                   <p className="mt-4">Четверг</p>
-                  <p className="-mt-7 ml-32 h-[40px] w-[322px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                  <p className="-mt-7 ml-32 h-[40px] w-[322px] rounded-md border border-gray-300 p-2 font-normal text-black">
                     09:00 - 18:00
                   </p>
                 </div>
                 <div className="ml-2 font-semibold text-[#48535B]">
                   <p className="mt-4">Пятница</p>
-                  <p className="-mt-7 ml-32 h-[40px] w-[322px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                  <p className="-mt-7 ml-32 h-[40px] w-[322px] rounded-md border border-gray-300 p-2 font-normal text-black">
                     09:00 - 18:00
                   </p>
                 </div>
                 <div className="ml-2 font-semibold text-[#48535B]">
                   <p className="mt-4">Суббота</p>
-                  <p className="-mt-7 ml-32 h-[40px] w-[322px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                  <p className="-mt-7 ml-32 h-[40px] w-[322px] rounded-md border border-gray-300 p-2 font-normal text-black">
                     09:00 - 18:00
                   </p>
                 </div>
                 <div className="ml-2 font-semibold text-[#84919A]">
                   <p className="mt-4">Воскресенье</p>
-                  <p className="-mt-7 ml-32 h-[40px] w-[322px] rounded-md border border-gray-300 p-2 font-normal text-[#84919A] focus:outline-none">
+                  <p className="-mt-7 ml-32 h-[40px] w-[322px] rounded-md border border-gray-300 p-2 font-normal text-[#84919A]">
                     09:00 - 18:00
                   </p>
                 </div>

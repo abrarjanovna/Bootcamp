@@ -91,25 +91,25 @@ const About = () => {
             </p>
             <div className="-mt-36 ml-36 font-semibold text-[#48535B]">
               Имя
-              <p className="-mt-7 ml-28 h-[40px] w-[948px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+              <p className="-mt-7 ml-28 h-[40px] w-[948px] rounded-md border border-gray-300 p-2 font-normal text-black">
                 Eleanor
               </p>
               <div className="mt-4">
                 Фамилия
-                <p className="-mt-7 ml-28 h-[40px] w-[948px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
-                  Pena
+                <p className="-mt-7 ml-28 h-[40px] w-[948px] rounded-md border border-gray-300 p-2 font-normal text-black">
+                  Eleanor Pena
                 </p>
               </div>
               <div className="mt-4">
                 Телефон
-                <p className="-mt-7 ml-28 h-[40px] w-[948px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                <p className="-mt-7 ml-28 h-[40px] w-[948px] rounded-md border border-gray-300 p-2 font-normal text-black">
                   (319) 555-0155
                 </p>
               </div>
               <div className="mt-4">
                 Тип клиента
                 <div className="-mt-4">
-                  <select className="-mt-7 ml-28 h-[40px] w-[948px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+                  <select className="-mt-7 ml-28 h-[40px] w-[948px] rounded-md border border-gray-300 p-2 font-normal text-black">
                     <option>VIP</option>
                     <option>VIP</option>
                     <option>VIP</option>

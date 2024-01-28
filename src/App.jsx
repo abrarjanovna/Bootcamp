@@ -1,5 +1,17 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Clients, Dashboard, Error, Orders, Settings } from "./pages";
+import {
+  Clients,
+  Dashboard,
+  Error,
+  FixedAbout,
+  Km,
+  KmAbout,
+  Orders,
+  Rates,
+  Regions,
+  RegionsAbout,
+  Settings,
+} from "./pages";
 import {
   Promotion,
   StockList,
@@ -13,6 +25,12 @@ import {
   AboutCompany,
   CompanyBranch,
   AboutBranch,
+  Katalog,
+  Product,
+  Personal,
+  Kassir,
+  Kuryer,
+  KassirAbout,
 } from "./some";
 import { Other } from "./components";
 import "./css/global.css";
@@ -47,8 +65,38 @@ const App = () => {
           element={<ReviewsAboutRu />}
         />
         <Route path="/settings" element={<Settings />} />
+        <Route path="/rates/fixed" element={<Rates />} />
+        <Route path="/rates/fixed/about" element={<FixedAbout />} />
+        <Route path="/rates/km" element={<Km />} />
+        <Route path="/rates/km/about" element={<KmAbout />} />
         <Route path="/settings/about-company" element={<AboutCompany />} />
         <Route path="/settings/company-branch" element={<CompanyBranch />} />
+        <Route path="/settings/regions" element={<Regions />} />
+        <Route path="/settings/regions/about" element={<RegionsAbout />} />
+        <Route
+          path="/settings/company-branch/catalog/category"
+          element={<Katalog />}
+        />
+        <Route
+          path="/settings/company-branch/catalog/product"
+          element={<Product />}
+        />
+        <Route
+          path="/settings/company-branch/personal/kuryer"
+          element={<Personal />}
+        />
+        <Route
+          path="/settings/company-branch/personal/kuryer/about-kuryer"
+          element={<Kuryer />}
+        />
+        <Route
+          path="/settings/company-branch/personal/kassir"
+          element={<Kassir />}
+        />
+        <Route
+          path="/settings/company-branch/personal/kassir/about-kassir"
+          element={<KassirAbout />}
+        />
         <Route
           path="/settings/company-branch/about-branch"
           element={<AboutBranch />}

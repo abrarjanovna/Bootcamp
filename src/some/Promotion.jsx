@@ -42,7 +42,7 @@ const Promotion = () => {
             </p>
             <div className="-mt-36 ml-36 font-semibold text-[#48535B]">
               Название
-              <p className="-mt-7 ml-28 h-[40px] w-[450px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
+              <p className="-mt-7 ml-28 h-[40px] w-[450px] rounded-md border border-gray-300 p-2 font-normal text-black">
                 Vulputate velit lacus, enim viverra quis.
               </p>
               <div className="mt-4">

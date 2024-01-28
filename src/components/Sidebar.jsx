@@ -1,8 +1,9 @@
+import { NavLink } from "react-router-dom";
 import { SlBasket } from "react-icons/sl";
 import { PiUsers } from "react-icons/pi";
 import { MdMyLocation } from "react-icons/md";
-import { NavLink } from "react-router-dom";
 import { IoMdSettings } from "react-icons/io";
+import { IoBasket } from "react-icons/io5";
 import profile from "../images/profile.svg";
 import img from "../images/d.svg";
 import "../css/main.css";
@@ -46,6 +47,16 @@ const Sidebar = () => {
               </div>
               <div className="-mt-[44px] ml-[70px] h-11 w-32 rounded-[8px] p-1 pl-3 text-2xl transition-all hover:bg-[#4094F7] hover:text-white">
                 Акции
+              </div>
+            </NavLink>
+          </div>
+          <div className="-ml-[59px] mt-2 w-[48px] rounded-xl transition-all hover:bg-[#4094F7] hover:text-white">
+            <NavLink to="/rates/fixed">
+              <div className="p-[10px] text-2xl">
+                <IoBasket />
+              </div>
+              <div className="-mt-[44px] ml-[70px] h-11 w-36 rounded-[8px] p-1 pl-3 text-2xl transition-all hover:bg-[#4094F7] hover:text-white">
+                Тарифы
               </div>
             </NavLink>
           </div>
