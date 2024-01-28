@@ -1,9 +1,9 @@
 import { SlBasket } from "react-icons/sl";
 import { PiUsers } from "react-icons/pi";
 import { MdMyLocation } from "react-icons/md";
-import { BiSolidBarChartSquare } from "react-icons/bi";
 import { NavLink } from "react-router-dom";
-import main from "../images/main.svg";
+import { IoMdSettings } from "react-icons/io";
+import profile from "../images/profile.svg";
 import img from "../images/d.svg";
 import "../css/main.css";
 
@@ -50,17 +50,17 @@ const Sidebar = () => {
             </NavLink>
           </div>
           <div className="-ml-[59px] mt-2 w-[48px] rounded-xl transition-all hover:bg-[#4094F7] hover:text-white">
-            <NavLink to="/charts">
+            <NavLink to="/settings">
               <div className="p-[10px] text-2xl">
-                <BiSolidBarChartSquare />
+                <IoMdSettings />
               </div>
-              <div className="-mt-[44px] ml-[70px] h-11 w-32 rounded-[8px] p-1 pl-3 text-2xl transition-all hover:bg-[#4094F7] hover:text-white">
-                Заказы
+              <div className="-mt-[44px] ml-[70px] h-11 w-36 rounded-[8px] p-1 pl-3 text-2xl transition-all hover:bg-[#4094F7] hover:text-white">
+                Настройки
               </div>
             </NavLink>
           </div>
         </div>
-        <img className="-ml-[59px] mt-[610px]" src={main} />
+        <img className="-ml-[53px] mt-[710px]" src={profile} />
       </div>
       <div className="vl2"></div>
     </div>

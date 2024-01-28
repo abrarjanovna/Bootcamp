@@ -7,15 +7,21 @@ import Review from "./Review";
 import ReviewsAbout from "./ReviewsAbout";
 import ReviewsAboutRu from "./ReviewsAboutRu";
 import StockList from "./StockList";
+import AboutCompany from "./AboutCompany";
+import CompanyBranch from "./CompanyBranch";
+import AboutBranch from "./AboutBranch";
 
 export {
   AboutClients,
-  Promotion,
-  StockList,
+  AboutBranch,
+  AboutBanners,
+  AboutCompany,
+  CompanyBranch,
   ClientsOrders,
+  StockList,
+  Promotion,
   Banners,
   Review,
-  AboutBanners,
   ReviewsAboutRu,
   ReviewsAbout,
 };

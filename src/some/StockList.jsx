@@ -625,7 +625,7 @@ const StockList = () => {
       <Sidebar />
       <div className="w-[1292px] pt-4">
         <div className="flex">
-          <p className="text-[#5B6871] ml-5 text-2xl font-bold">Список акций</p>
+          <p className="ml-5 text-2xl font-bold text-[#5B6871]">Список акций</p>
           <div className="ml-[585px] mt-1  h-[32px] w-[400px] border text-gray-500">
             <div className="flex p-2">
               <CgSearch />

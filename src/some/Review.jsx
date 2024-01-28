@@ -572,16 +572,16 @@ const Review = () => {
         <div className="flex h-[965px] bg-[#4094F726]">
           <div className="m-4 h-[630px] cursor-pointer bg-white">
             <Link to="/stockList/reviews/reviews-about/uzb">
-            <DataGrid
-              rows={rows}
-              columns={columns}
-              initialState={{
-                pagination: {
-                  paginationModel: { page: 0, pageSize: 8 },
-                },
-              }}
-              pageSizeOptions={[10, 20]}
-            />
+              <DataGrid
+                rows={rows}
+                columns={columns}
+                initialState={{
+                  pagination: {
+                    paginationModel: { page: 0, pageSize: 8 },
+                  },
+                }}
+                pageSizeOptions={[10, 20]}
+              />
             </Link>
           </div>
         </div>

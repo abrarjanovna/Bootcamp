@@ -14,13 +14,13 @@ const ReviewsAbout = () => {
             <span className="ml-4">
               <FaFolder />
             </span>
-            <span className="-m-[6px] ml-3">Список отзывов</span>
+            <span className="-m-[6px] ml-3">Fikrlar Ro'yxati</span>
           </p>
         </Link>
-        <div className="-mt-8 ml-[200px] text-[#b0babf]">
+        <div className="-mt-8 ml-[185px] text-[#b0babf]">
           <GrNext />
         </div>
-        <div className="-mt-4 ml-56 flex text-[#4094F7]">
+        <div className="-mt-4 ml-52 flex text-[#4094F7]">
           <FaFolder />
           <span className="-mt-1 ml-2 text-black">😉 Kuryer juda yaxshi</span>
         </div>

@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Charts, Clients, Dashboard, Error, Orders } from "./pages";
+import { Clients, Dashboard, Error, Orders, Settings } from "./pages";
 import {
   Promotion,
   StockList,
@@ -10,6 +10,9 @@ import {
   AboutClients,
   ReviewsAbout,
   ReviewsAboutRu,
+  AboutCompany,
+  CompanyBranch,
+  AboutBranch,
 } from "./some";
 import { Other } from "./components";
 import "./css/global.css";
@@ -35,9 +38,21 @@ const App = () => {
           element={<AboutBanners />}
         />
         <Route path="/stockList/reviews" element={<Review />} />
-        <Route path="/stockList/reviews/reviews-about/uzb" element={<ReviewsAbout />} />
-        <Route path="/stockList/reviews/reviews-about/ru" element={<ReviewsAboutRu />} />
-        <Route path="/charts" element={<Charts />} />
+        <Route
+          path="/stockList/reviews/reviews-about/uzb"
+          element={<ReviewsAbout />}
+        />
+        <Route
+          path="/stockList/reviews/reviews-about/ru"
+          element={<ReviewsAboutRu />}
+        />
+        <Route path="/settings" element={<Settings />} />
+        <Route path="/settings/about-company" element={<AboutCompany />} />
+        <Route path="/settings/company-branch" element={<CompanyBranch />} />
+        <Route
+          path="/settings/company-branch/about-branch"
+          element={<AboutBranch />}
+        />
         <Route path="/*" element={<Error />} />
       </Routes>
     </BrowserRouter>

@@ -541,7 +541,7 @@ export default function Table() {
     <div className="flex">
       <Sidebar />
       <div className="h-[55px] w-[1476px] bg-white">
-        <p className="m-3 text-2xl ml-5 font-bold">Клиенты</p>
+        <p className="m-3 ml-5 text-2xl font-bold">Клиенты</p>
         <div className="mb-4 ml-4 h-[32px] w-[400px] border text-gray-500">
           <div className="flex p-2">
             <CgSearch />
