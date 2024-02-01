@@ -6,7 +6,6 @@
 
 .container {
   background-color: #0067f4;
-  width: 720px;
   height: 100vh;
 }
 
@@ -46,11 +45,12 @@
   margin-left: -91%;
 }
 
-.hr{
+.hr {
   width: 432.8%;
 }
 
-#customers td, #customers th {
+#customers td,
+#customers th {
   font-size: 18px;
   border-radius: 10px 0 0 0;
   padding: 8px;

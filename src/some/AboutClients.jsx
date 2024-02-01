@@ -86,7 +86,7 @@ const About = () => {
           <hr />
           <div className="p-4">
             <img src={avatar} />
-            <p className="m-1 cursor-pointer font-semibold text-[#4094F7] ">
+            <p className="m-1 cursor-pointer font-semibold text-[#4094F7]">
               Изменить фото
             </p>
             <div className="-mt-36 ml-36 font-semibold text-[#48535B]">
@@ -109,7 +109,7 @@ const About = () => {
               <div className="mt-4">
                 Тип клиента
                 <div className="-mt-4">
-                  <select className="-mt-7 ml-28 h-[40px] w-[948px] rounded-md border border-gray-300 p-2 font-normal text-black">
+                  <select className="-mt-7 ml-28 h-[40px] w-[948px] rounded-md border border-gray-300 p-2 font-normal text-black focus:outline-none">
                     <option>VIP</option>
                     <option>VIP</option>
                     <option>VIP</option>

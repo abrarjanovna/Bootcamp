@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Datepicker from "react-tailwindcss-datepicker";
 
-const App = () => {
+const Calendar = () => {
   const [value, setValue] = useState({
     startDate: null,
     endDate: null,
@@ -22,4 +22,4 @@ const App = () => {
     />
   );
 };
-export default App;
+export default Calendar;

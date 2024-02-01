@@ -1,62 +1,55 @@
-import { useState } from "react";
-import { HiUser } from "react-icons/hi";
-import { IoMdLock } from "react-icons/io";
 import { Link } from "react-router-dom";
+import user from "../images/user.svg";
+import password from "../images/password.svg";
 import "./Login.css";
 
 const Login = () => {
-  const [name, setName] = useState("");
-  const [password, setPassword] = useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
-
   return (
-    <div className="login">
-      <form
-        className="login-form"
-        onSubmit={(e) => {
-          handleSubmit(e);
-        }}
-      >
-        <h1 className="font-bold text-[#001A49]">Вход в платформу</h1>
-        <p className="font-semibold">
-          Имя пользователья <span className="text-[#F76659]">*</span>
-        </p>
-        <input
-          type="name"
-          placeholder="Введите имя"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-        <div className="-mt-[43px] ml-3 text-gray-400">
-          <HiUser />
+    <div className="flex w-full">
+      <div className="ml-32 pt-[90px]">
+        <h2 className="text-[38px] font-bold text-[#001A49]">
+          Вход в платформу
+        </h2>
+        <form className="mt-[40px]">
+          <label className="mb-[8px] inline-block font-semibold text-[#1A2024]">
+            Имя пользователья<span className="text-[#F76659]">* </span>
+          </label>
+          <div className="relative flex items-center">
+            <input
+              placeholder="Введите имя"
+              className="w-full rounded-xl border border-[#6E8BB74D] p-[12px] pl-[35px] text-[14px] text-black focus:outline-none"
+            />
+            <img src={user} className="absolute left-[12px]" />
+          </div>
+          <label
+            htmlFor="userPassword"
+            className="mb-[8px] mt-[16px] inline-block font-semibold text-[#1A2024]"
+          >
+            Пароль<span className="text-[#F76659]">*</span>
+          </label>
+          <div className="relative flex items-center">
+            <input
+              type="password"
+              placeholder="Введите пароль"
+              className="w-[502px] rounded-xl border border-[#6E8BB74D] p-[12px] pl-[35px] text-[14px] text-black focus:outline-none"
+            />
+            <img src={password} className="absolute left-[12px]" />
+          </div>
+          <div className="mt-[24px] flex items-center">
+            <input type="checkbox" className="mr-[16px] h-[16px] w-[16px]" />
+            <p className="text-[#6E8BB7]">Запомнить меня</p>
+          </div>
+          <Link
+            to="/dashboard"
+            className="mt-[40px] block rounded-xl bg-[#0067F4] p-[12px] font-semibold text-white"
+          >
+            <span className="ml-[13rem]">Войти</span>
+          </Link>
+        </form>
+        <div className="mt-44 text-[#6E8BB7]">
+          Copyright ©Delever. Все права защищены
         </div>
-
-        <p className="mt-10 font-semibold">
-          Пароль<span className="text-[#F76659]">*</span>
-        </p>
-        <input
-          type="password"
-          placeholder="Введите пароль"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        <div className="-mt-[42px] ml-3 text-gray-400">
-          <IoMdLock />
-        </div>
-        <div className="mt-8 flex">
-          <input type="checkbox" />
-          <p className="ml-2 text-gray-400">Запомнить меня</p>
-        </div>
-        <button className="mt-8 h-[56px] w-[592px] rounded-lg bg-[#0067F4] text-white">
-          <Link to="/dashboard">Войти</Link>
-        </button>
-      </form>
-      <h1 className="mt-[200px] text-gray-500">
-        Copyright Delever. Все права защищены
-      </h1>
+      </div>
     </div>
   );
 };
